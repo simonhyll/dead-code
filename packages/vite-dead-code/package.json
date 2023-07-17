@@ -1,0 +1,45 @@
+{
+  "name": "vite-dead-code",
+  "version": "1.0.0",
+  "description": "Dead code removal for Vite",
+  "author": "Simon Hyll <hyllsimon@gmail.com>",
+  "repository": "https://github.com/simonhyll/dead-code",
+  "license": "MIT",
+  "keywords": [
+    "vite"
+  ],
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.22.9",
+    "@babel/parser": "^7.22.7",
+    "@babel/types": "^7.22.5",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/pluginutils": "^5.0.0",
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__traverse": "^7.20.1",
+    "@types/node": "^18.16.19",
+    "@vue/compiler-sfc": "^3.3.4",
+    "rollup": "^3.2.3",
+    "tslib": "^2.4.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.1",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.22.8"
+  }
+}
