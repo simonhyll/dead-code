@@ -1,6 +1,6 @@
 {
   "name": "nuxt-dead-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nuxt module for adding vite-dead-code",
   "author": "Simon Hyll <hyllsimon@gmail.com>",
   "repository": "https://github.com/simonhyll/dead-code",
