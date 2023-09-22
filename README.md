@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/79983560" width="200">
+<img src="/logo.png" width="200">
 
 # Dead Code
 Strips dead code from Javascript
